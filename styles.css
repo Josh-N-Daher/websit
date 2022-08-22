@@ -1,0 +1,25 @@
+body {
+  background-color: black;
+}
+
+text {
+    background-color: black;
+    color: white;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-variant: ;
+}
+text2 {
+    color: white;
+    font-family: 'Comic Neue', cursive;
+    font-size: 14px;
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+/*a {
+    visibility: hidden;
+}
+/*text {border-style: ridge;}*/
