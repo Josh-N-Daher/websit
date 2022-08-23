@@ -2,7 +2,7 @@
     "@context" : "http://netlify.app",
     "@type" : "Personal",
     "name" : "Joshua Daher",
-    "url" : "https://www.joshua-daher.netlify.app/",
+    "url" : "https://joshua-daher.netlify.app",
     "sameAs" : [
         "https://demirramon.com/smg1"
     ]
