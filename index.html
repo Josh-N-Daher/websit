@@ -20,7 +20,12 @@
     document.title = title
 </script> -->
 <img src="icon.png"><text2>yo, look! it's spamton!</text2>
-
+<br>
+<body onload="typewriter();">
+    <div class="terminal" >
+        <div class="terminal__text" id="typedtext"></div>
+    </div>
+</body>
 
 
 <style>
@@ -55,13 +60,15 @@
             }
         }
         var aText = new Array(
-            "hey, it's josh",
-            "hope to be seeing you soon!"
+            "hehehe",
+            "hello",
+            "this is text lol",
+            "hehehe"
         );
-        var iSpeed = 100; 
+        var iSpeed = 50; 
         var iIndex = 0; 
         var iArrLength = aText[0].length; 
-        var iScrollAt = 20; 
+        var iScrollAt = 10; 
             
         var iTextPos = 0; 
         var sContents = ''; 
@@ -81,7 +88,7 @@
                 iIndex++;
             if ( iIndex != aText.length ) {
                 iArrLength = aText[iIndex].length;
-                setTimeout("typewriter()", 500);
+                setTimeout("typewriter()", 200);
             }
             } else {
                 setTimeout("typewriter()", iSpeed);
@@ -296,9 +303,7 @@
     <br>
     see ya later!
 </text>
-<br>
-<button onclick="typewriter()">click for message</button>
-<br>
+<br><br>
 <penis>
     yo it's me chunke and im here to take ya mone
 </penis>
