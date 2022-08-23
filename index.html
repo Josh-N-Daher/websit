@@ -14,64 +14,7 @@
 <link rel="jSON" type="application/ld+json" href="app.jSON">
 <link rel="cookies" type="text/javascript" href="cookies.js">
 <script type="text/javascript" src="jquery.js"></script>
-<!--<script>
-    var titles = ['Joshua Daher', 'Press F1 for HELP', 'Someone help me...', 'Electric Boogaloo', 'Pissing on the moon', 'Toaster Bath', 'Installing Trojan', 'Releasing Nano-virus', 'WASSSSSsSA']
-    var title = titles[Math.floor(Math.random() * titles.length)] // pick random item
-    document.title = title
-</script> -->
 <img src="icon.png"><text2>yo, look! it's spamton!</text2>
-<br>
-<body onload="typewriter();">
-    <div class="terminal" >
-        <div class="terminal__text" id="typedtext"></div>
-    </div>
-</body>
-<script>
-    var aText = new Array(
-        "hi, i'm josh.",
-        "i like to code, animate, make music, and draw!",
-        "if you want to reach me, ",
-        "",
-        "",
-        "",
-        "...",
-        "",
-        "",
-        "",
-        "...don't :)"
-    );
-    var iSpeed = 50; 
-    var iIndex = 0; 
-    var iArrLength = aText[0].length; 
-    var iScrollAt = 10; 
-        
-    var iTextPos = 0; 
-    var sContents = ''; 
-    var iRow; 
-        
-    function typewriter() {
-        sContents =  ' ';
-        iRow = Math.max(0, iIndex-iScrollAt);
-        var destination = document.getElementById("typedtext");
-        
-        while ( iRow < iIndex ) {
-            sContents += aText[iRow++] + '<br />';
-        }
-        destination.innerHTML = sContents + aText[iIndex].substring(0, iTextPos) + "_";
-        if ( iTextPos++ == iArrLength ) {
-            iTextPos = 0;
-            iIndex++;
-        if ( iIndex != aText.length ) {
-            iArrLength = aText[iIndex].length;
-            setTimeout("typewriter()", 200);
-        }
-        } else {
-            setTimeout("typewriter()", iSpeed);
-        }
-    }
-</script>
-<br>
-<br>
 
 
 <style>
